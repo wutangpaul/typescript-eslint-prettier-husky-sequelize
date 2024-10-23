@@ -29,11 +29,6 @@ coverage/
 # TypeScript
 *.tsbuildinfo
 
-# Package lock files
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
-
 # IDE and editor settings
 .vscode/
 .idea/
