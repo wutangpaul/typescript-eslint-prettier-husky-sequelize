@@ -17,7 +17,7 @@ A boilerplate project that sets up TypeScript development with ESLint, Prettier,
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/wutangpaul/typescript-eslint-prettier-husky-vitest.git
+   git clone git@github.com:wutangpaul/typescript-eslint-prettier-husky-vitest.git
    cd typescript-eslint-prettier-husky-vitest
    ```
 
