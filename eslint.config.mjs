@@ -1,10 +1,17 @@
 import typescriptPlugin from "@typescript-eslint/eslint-plugin";
 import typescriptParser from "@typescript-eslint/parser";
 import prettierPlugin from "eslint-plugin-prettier";
-import * as prettier from "prettier"; // Import Prettier
 
 export default [
   {
+    ignores: [
+      "node_modules/",
+      "dist/",
+      "build/",
+      "coverage/",
+      "*.min.js",
+      "*.bundle.js",
+    ],
     // Apply ESLint rules for TypeScript files
     files: ["**/*.ts", "**/*.tsx"],
     languageOptions: {
