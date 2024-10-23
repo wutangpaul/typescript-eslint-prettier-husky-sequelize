@@ -1,1 +1,1 @@
-console.log("Hello World, this is your app speaking even more!");
+console.log("Hello World, this is your app speaking!");

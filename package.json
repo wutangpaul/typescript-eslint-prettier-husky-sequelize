@@ -10,13 +10,10 @@
     "dev": "nodemon src/app.ts",
     "lint": "eslint '**/*.ts'",
     "lint:fix": "eslint '**/*.ts' --fix",
-    "test": "yarn lint",
+    "test": "yarn vitest --run",
     "prepare": "husky"
   },
-  "dependencies": {
-    "sequelize": "^6.37.4",
-    "sqlite3": "^5.1.7"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@eslint/js": "^9.13.0",
     "@typescript-eslint/eslint-plugin": "^8.11.0",
@@ -30,6 +27,7 @@
     "prettier": "^3.3.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3",
-    "typescript-eslint": "^8.11.0"
+    "typescript-eslint": "^8.11.0",
+    "vitest": "^2.1.3"
   }
 }
