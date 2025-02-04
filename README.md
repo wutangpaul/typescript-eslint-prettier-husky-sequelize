@@ -1,4 +1,4 @@
-# Typescript ESLint Prettier Husky Vitest
+# Typescript ESLint Prettier Husky Vitest Boilerplate
 
 A boilerplate project that sets up TypeScript development with ESLint, Prettier, Husky, and Vitest. The project also uses Nodemon for hot-reloading during development.
 
